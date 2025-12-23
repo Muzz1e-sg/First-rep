@@ -137,5 +137,50 @@ html {
     font-size: 20px;
     opacity: 0.7;
     margin-top: 40px;
+}
 
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero {
+        padding-top: 60px;
+        height: auto;          /* убираем жёсткий экран */
+        min-height: 100vh;
+    }
+
+    /* ЛОГОТИП */
+    .hero-logo {
+        width: 100%;
+        max-width: 95vw;
+        margin-bottom: 20px;
+    }
+
+    /* НАВИГАЦИЯ */
+    nav {
+        position: static;      /* ВАЖНО: убираем absolute */
+        margin-bottom: 30px;
+        gap: 30px;
+    }
+
+    nav a {
+        font-size: 32px;
+    }
+
+    /* ПОДЗАГОЛОВОК */
+    .hero-subtitle {
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .hero-subtitle span:last-child {
+        font-size: 42px !important; /* Frontend-разработчик */
+    }
 }
