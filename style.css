@@ -46,6 +46,8 @@ html {
 }
 .hero-logo {
     width: 900px;
+    max-width: 90vw;
+    height: auto;
     margin-bottom: 40px;
 }
 .about{
@@ -135,4 +137,5 @@ html {
     font-size: 20px;
     opacity: 0.7;
     margin-top: 40px;
+
 }
